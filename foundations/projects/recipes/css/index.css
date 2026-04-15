@@ -1,0 +1,19 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: ghostwhite;
+  padding: 24px;
+}
+
+.title,
+.recipe-link {
+  text-align: center;
+}
+
+.title {
+  margin-top: 16px;
+  border-bottom: 8px solid gray;
+  padding-bottom: 3px;
+}
