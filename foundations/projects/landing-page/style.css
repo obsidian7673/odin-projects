@@ -76,3 +76,38 @@ a {
     background-color: gray;
   }
 }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .info-heading {
+    margin: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+  }
+
+  .info-card-container {
+    padding-bottom: 100px;
+    display: flex;
+    gap: 50px;
+  }
+
+  .info-card {
+    width: 200px;
+  }
+
+  img {
+    min-height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+  }
+
+  .info-text {
+    padding-top: 8px;
+    color: gray;
+    text-align: center;
+  }
+}
