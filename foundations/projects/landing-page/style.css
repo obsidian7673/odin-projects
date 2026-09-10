@@ -11,7 +11,8 @@ body {
   flex-direction: column;
 }
 
-h1 {
+h1,
+button {
   color: #f9faf8;
 }
 
@@ -25,9 +26,18 @@ a {
   color: #e5e7eb;
 }
 
+.signup {
+  margin-top: 8px;
+  padding: 8px 32px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #3882f6;
+  text-align: center;
+  font-weight: bold;
+}
+
 .header {
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding: 0 12vw;
   height: 42px;
   display: flex;
   flex-wrap: wrap;
@@ -41,7 +51,28 @@ a {
 
   .links {
     display: flex;
-    gap: 32px;
+    gap: 24px;
     list-style: none;
+  }
+}
+
+.hero {
+  padding: 0 12vw;
+  height: 400px;
+  display: flex;
+  flex-flow: column, wrap;
+  align-items: center;
+  gap: 48px;
+  background-color: #1f2937;
+
+  .hero-heading {
+    font-size: 48px;
+    font-weight: 900;
+  }
+  
+  img {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
   }
 }
