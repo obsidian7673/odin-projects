@@ -37,8 +37,8 @@ a {
 }
 
 .header {
-  padding: 0 12vw;
-  height: 42px;
+  padding: 0 20vw;
+  height: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -57,12 +57,13 @@ a {
 }
 
 .hero {
-  padding: 0 12vw;
-  height: 400px;
+  height: 500px;
+  padding: 0 20vw;
   display: flex;
   flex-flow: column, wrap;
+  justify-content: center;
   align-items: center;
-  gap: 48px;
+  gap: 60px;
   background-color: #1f2937;
 
   .hero-heading {
@@ -71,8 +72,8 @@ a {
   }
   
   img {
-    width: 500px;
-    height: 200px;
+    width: 600px;
+    height: 250px;
     background-color: gray;
   }
 }
