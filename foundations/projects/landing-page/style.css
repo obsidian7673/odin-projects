@@ -27,13 +27,13 @@ a {
 }
 
 .signup {
-  margin-top: 8px;
   padding: 8px 32px;
   border: 0;
   border-radius: 8px;
   background-color: #3882f6;
-  text-align: center;
+  font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 
 .header {
@@ -69,6 +69,10 @@ a {
   .hero-heading {
     font-size: 48px;
     font-weight: 900;
+  }
+
+  .hero-text {
+    margin-bottom: 8px;
   }
   
   img {
@@ -132,5 +136,23 @@ a {
     padding-left: 600px;
     font-weight: 900;
     color: #1f2937;
+  }
+}
+
+.call-to-action {
+  margin: 100px 20vw;
+  border-radius: 16px;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .signup {
+    border: 2px solid #f9faf8;
   }
 }
