@@ -148,11 +148,20 @@ a {
   align-items: center;
   background-color: #3882f6;
 
-  h1 {
+  .call-heading {
     font-size: 24px;
   }
 
   .signup {
     border: 2px solid #f9faf8;
   }
+}
+
+.footer {
+  height: 100px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
