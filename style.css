@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+:root {
+  --tokyo-bg: #1a1b26;
+  --tokyo-bg-storm: #24283b;
+  --tokyo-fg: #c0caf5;
+  --tokyo-fg-dark: #a9b1d6;
+  --tokyo-comment: #565f89;
+  --tokyo-blue: #7aa2f7;
+  --tokyo-cyan: #7dcfff;
+  --tokyo-green: #9ece6a;
+  --tokyo-magenta: #bb9af7;
+  --tokyo-purple: #9d7cd8;
+  --tokyo-orange: #ff9e64;
+  --tokyo-yellow: #e0af68;
+  --tokyo-red: #f7768e;
+  --tokyo-teal: #1abc9c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'fira code', monospace;
+  font-weight: 400;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: var(--tokyo-purple);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--tokyo-blue)
+}
+
+.flex {
+  display: flex;
+  gap: 2vw;
+}
+
+.header,
+.footer {
+  color: var(--tokyo-fg);
+  background-color: var(--tokyo-bg);
+  padding: 1rem 10vw;
+}
+
+.header a:visited {
+  color: var(--tokyo-purple);
+}
+
+.content {
+  padding: 5vw 10vw;
+  color: var(--tokyo-bg);
+  background-color: var(--tokyo-bg-storm);
+  flex-direction: column;
+  flex: 1;
+}
+
+.card {
+  padding: 2vw;
+  border: 5px solid var(--tokyo-fg-dark);
+  background-color: var(--tokyo-fg);
+}
+
+.title {
+  flex: 3 1 100px;
+  text-align: center;
+  h1{
+    font-size: 48px;
+    font-weight: 700;
+  }
+}
+
+.info {
+  flex: 1 1 100px;
+}
+
+.project {
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.project-link {
+  font-size: 32px;
+}
+
+.odin-link {
+  text-align: center;
+  font-size: 12px;
+  padding: 0.5vw;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+}
